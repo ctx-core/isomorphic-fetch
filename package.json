@@ -34,8 +34,8 @@
 		"isomorphic-fetch": "^2.2.1"
 	},
 	"devDependencies": {
-		"@types/node": "^13.13.5",
-		"typescript": "^3.8.3"
+		"@types/node": "^14.0.0",
+		"typescript": "^3.9.2"
 	},
 	"gitHead": "c0b3232edfb2874cfafb0b0b2b8bd8117f67bc29"
 }
