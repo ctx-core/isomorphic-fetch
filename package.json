@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/isomorphic-fetch",
-	"version": "1.1.137",
+	"version": "1.1.138",
 	"description": "isomorphic-fetch & @types/isomorphic-fetch",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -30,7 +30,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^5.13.27",
+		"@ctx-core/dom": "^5.13.28",
 		"isomorphic-fetch": "^2.2.1"
 	},
 	"devDependencies": {
