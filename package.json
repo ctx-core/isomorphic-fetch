@@ -37,5 +37,5 @@
 		"@types/node": "^14.0.27",
 		"typescript": "^3.9.7"
 	},
-	"gitHead": "434749ac966e4e26a2c69ca4fb7d1842e9c10652"
+	"gitHead": "75347ce7243c94f36d2a69c122e19fef92dd5cdd"
 }
