@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/isomorphic-fetch",
-  "version": "1.1.194",
+  "version": "1.1.195",
   "description": "isomorphic-fetch & @types/isomorphic-fetch",
   "keywords": [
     "ctx-core",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "tsc -b",
+    "compile": "./node_modules/.bin/tsc -b",
     "exec": "$@",
     "prepublishOnly": "npm run compile"
   },
