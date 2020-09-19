@@ -1,5 +1,16 @@
 # @ctx-core/isomorphic-fetch
 
+## 2.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@7.0.0
+
 ## 1.1.195
 
 ### Patch Changes
