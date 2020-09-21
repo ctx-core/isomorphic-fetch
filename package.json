@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/isomorphic-fetch",
-	"version": "2.0.9",
+	"version": "2.0.10",
 	"description": "isomorphic-fetch & @types/isomorphic-fetch",
 	"keywords": [
 		"ctx-core",
@@ -27,7 +27,7 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^7.0.9",
+		"@ctx-core/dom": "workspace:^7.0.10",
 		"isomorphic-fetch": "^2.2.1"
 	},
 	"devDependencies": {
