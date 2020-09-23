@@ -1,5 +1,11 @@
 # @ctx-core/isomorphic-fetch
 
+## 2.0.16
+
+### Patch Changes
+
+- isomorphic-fetch: ^2.2.1 -> ^3.0.0
+
 ## 2.0.15
 
 ### Patch Changes
