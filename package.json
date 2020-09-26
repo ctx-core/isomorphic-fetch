@@ -1,40 +1,40 @@
 {
-	"name": "@ctx-core/isomorphic-fetch",
-	"version": "2.0.33",
-	"description": "isomorphic-fetch & @types/isomorphic-fetch",
-	"keywords": [
-		"ctx-core",
-		"fetch"
-	],
-	"homepage": "https://github.com/ctx-core/isomorphic-fetch#readme",
-	"bugs": {
-		"url": "https://github.com/ctx-core/isomorphic-fetch/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/isomorphic-fetch/issues"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
-	"scripts": {
-		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "./node_modules/.bin/tsc -b",
-		"exec": "$@",
-		"prepublishOnly": "npm run compile"
-	},
-	"dependencies": {
-		"@ctx-core/dom": "workspace:^7.0.32",
-		"isomorphic-fetch": "^3.0.0"
-	},
-	"devDependencies": {
-		"@types/node": "^14.11.2",
-		"typescript": "^4.0.3"
-	},
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@ctx-core/isomorphic-fetch",
+  "version": "2.0.34",
+  "description": "isomorphic-fetch & @types/isomorphic-fetch",
+  "keywords": [
+    "ctx-core",
+    "fetch"
+  ],
+  "homepage": "https://github.com/ctx-core/isomorphic-fetch#readme",
+  "bugs": {
+    "url": "https://github.com/ctx-core/isomorphic-fetch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/isomorphic-fetch/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -f tsconfig.tsbuildinfo",
+    "compile": "./node_modules/.bin/tsc -b",
+    "exec": "$@",
+    "prepublishOnly": "npm run compile"
+  },
+  "dependencies": {
+    "@ctx-core/dom": "workspace:^7.0.33",
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "typescript": "^4.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
