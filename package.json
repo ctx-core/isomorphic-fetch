@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/isomorphic-fetch",
-	"version": "2.0.47",
+	"version": "3.0.0",
 	"description": "isomorphic-fetch & @types/isomorphic-fetch",
 	"keywords": [
 		"ctx-core",
@@ -19,6 +19,7 @@
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
+	"browser": "./browser.js",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
@@ -28,7 +29,9 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "workspace:^7.0.47",
-		"isomorphic-fetch": "^3.0.0"
+		"isomorphic-fetch": "^3.0.0",
+		"node-fetch": "^2.6.1",
+		"whatwg-fetch": "^3.4.1"
 	},
 	"devDependencies": {
 		"@types/node": "^14.11.2",

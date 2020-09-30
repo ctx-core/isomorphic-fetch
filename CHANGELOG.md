@@ -1,5 +1,11 @@
 # @ctx-core/isomorphic-fetch
 
+## 3.0.0
+
+### Major Changes
+
+- Custom implementation of isomorphic-fetch: no custom export, only named exports
+
 ## 2.0.47
 
 ### Patch Changes
