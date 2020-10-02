@@ -1,5 +1,11 @@
 # @ctx-core/isomorphic-fetch
 
+## 3.0.1
+
+### Patch Changes
+
+- flash updates
+
 ## 3.0.0
 
 ### Major Changes
