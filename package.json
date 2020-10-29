@@ -1,43 +1,43 @@
 {
-  "name": "@ctx-core/isomorphic-fetch",
-  "version": "3.0.14",
-  "description": "isomorphic-fetch & @types/isomorphic-fetch",
-  "keywords": [
-    "ctx-core",
-    "fetch"
-  ],
-  "homepage": "https://github.com/ctx-core/isomorphic-fetch#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/isomorphic-fetch/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/isomorphic-fetch/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "browser": "./browser.js",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "dependencies": {
-    "@ctx-core/dom": "workspace:^7.1.4",
-    "isomorphic-fetch": "^3.0.0",
-    "node-fetch": "^2.6.1",
-    "whatwg-fetch": "^3.4.1"
-  },
-  "devDependencies": {
-    "@types/node": "^14.14.6",
-    "typescript": "^4.0.5"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@ctx-core/isomorphic-fetch",
+	"version": "3.0.14",
+	"description": "isomorphic-fetch & @types/isomorphic-fetch",
+	"keywords": [
+		"ctx-core",
+		"fetch"
+	],
+	"homepage": "https://github.com/ctx-core/isomorphic-fetch#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/isomorphic-fetch/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/isomorphic-fetch/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"browser": "./browser.js",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/dom": "workspace:^7.1.4",
+		"isomorphic-fetch": "^3.0.0",
+		"node-fetch": "^2.6.1",
+		"whatwg-fetch": "^3.4.1"
+	},
+	"devDependencies": {
+		"@types/node": "^14.14.6",
+		"typescript": "^4.0.5"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
