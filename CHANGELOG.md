@@ -1,5 +1,11 @@
 # @ctx-core/isomorphic-fetch
 
+## 3.0.15
+
+### Patch Changes
+
+- whatwg-fetch: ^3.4.1 -> ^3.5.0
+
 ## 3.0.14
 
 ### Patch Changes
