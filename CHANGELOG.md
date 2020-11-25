@@ -1,5 +1,15 @@
 # @ctx-core/isomorphic-fetch
 
+## 3.1.0
+
+### Minor Changes
+
+- Extract separate modules
+
+### Patch Changes
+
+- @ctx-core/dom@7.1.13
+
 ## 3.0.24
 
 ### Patch Changes
