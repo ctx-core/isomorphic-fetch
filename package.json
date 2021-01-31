@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/isomorphic-fetch",
-	"version": "3.1.50",
+	"version": "4.0.0",
 	"description": "isomorphic-fetch & @types/isomorphic-fetch",
 	"keywords": [
 		"ctx-core",
@@ -16,9 +16,9 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
+	"main": "./src/index.js",
+	"module": "./src/index.js",
+	"types": "./src/index.ts",
 	"browser": "./browser.js",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
@@ -28,7 +28,7 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^7.1.52",
+		"@ctx-core/dom": "workspace:^8.0.0",
 		"isomorphic-fetch": "^3.0.0",
 		"node-fetch": "^2.6.1",
 		"whatwg-fetch": "^3.5.0"
