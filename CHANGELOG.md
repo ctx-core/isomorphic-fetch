@@ -1,5 +1,11 @@
 # @ctx-core/isomorphic-fetch
 
+## 4.0.4
+
+### Patch Changes
+
+- fix: loading in browser
+
 ## 4.0.3
 
 ### Patch Changes
