@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/isomorphic-fetch",
-	"version": "4.0.41",
+	"version": "4.0.42",
 	"description": "isomorphic-fetch & @types/isomorphic-fetch",
 	"keywords": [
 		"ctx-core",
