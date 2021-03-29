@@ -1,5 +1,13 @@
 # @ctx-core/isomorphic-fetch
 
+## 4.0.48
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.14
+
 ## 4.0.47
 
 ### Patch Changes
