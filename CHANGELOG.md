@@ -1,5 +1,16 @@
 # @ctx-core/isomorphic-fetch
 
+## 4.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.3.0
+
 ## 4.0.63
 
 ### Patch Changes
