@@ -1,5 +1,13 @@
 # @ctx-core/isomorphic-fetch
 
+## 4.1.1
+
+### Patch Changes
+
+- fix: target: 2018: nodejs compatability
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.3.1
+
 ## 4.1.0
 
 ### Minor Changes
