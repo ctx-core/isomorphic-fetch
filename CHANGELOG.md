@@ -1,5 +1,13 @@
 # @ctx-core/isomorphic-fetch
 
+## 4.1.5
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.3.10
+
 ## 4.1.4
 
 ### Patch Changes
