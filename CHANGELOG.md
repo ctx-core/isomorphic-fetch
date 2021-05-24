@@ -1,5 +1,16 @@
 # @ctx-core/isomorphic-fetch
 
+## 4.2.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.4.0
+
 ## 4.1.5
 
 ### Patch Changes
