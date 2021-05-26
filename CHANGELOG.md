@@ -1,5 +1,11 @@
 # @ctx-core/isomorphic-fetch
 
+## 4.3.1
+
+### Patch Changes
+
+- fix: package.json: "browser": points to dist directory
+
 ## 4.3.0
 
 ### Minor Changes
