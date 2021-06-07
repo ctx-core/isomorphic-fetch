@@ -1,5 +1,13 @@
 # @ctx-core/isomorphic-fetch
 
+## 4.3.7
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.10
+
 ## 4.3.6
 
 ### Patch Changes
