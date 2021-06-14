@@ -1,5 +1,16 @@
 # @ctx-core/isomorphic-fetch
 
+## 5.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.0
+
 ## 4.3.9
 
 ### Patch Changes
