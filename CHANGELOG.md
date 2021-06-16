@@ -1,5 +1,11 @@
 # @ctx-core/isomorphic-fetch
 
+## 5.0.1
+
+### Patch Changes
+
+- fix: browser: load ./src/browser.js
+
 ## 5.0.0
 
 ### Major Changes
