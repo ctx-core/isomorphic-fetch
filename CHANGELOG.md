@@ -1,5 +1,13 @@
 # @ctx-core/isomorphic-fetch
 
+## 5.0.8
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.7
+
 ## 5.0.7
 
 ### Patch Changes
