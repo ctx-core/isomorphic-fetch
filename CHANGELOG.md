@@ -1,5 +1,13 @@
 # @ctx-core/isomorphic-fetch
 
+## 5.0.7
+
+### Patch Changes
+
+- "prepare": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.6
+
 ## 5.0.6
 
 ### Patch Changes
