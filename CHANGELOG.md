@@ -1,5 +1,13 @@
 # @ctx-core/isomorphic-fetch
 
+## 5.0.10
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.10
+
 ## 5.0.9
 
 ### Patch Changes
