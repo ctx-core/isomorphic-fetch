@@ -1,5 +1,13 @@
 # @ctx-core/isomorphic-fetch
 
+## 5.0.13
+
+### Patch Changes
+
+- dist directory
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.15
+
 ## 5.0.12
 
 ### Patch Changes
