@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/isomorphic-fetch",
-	"version": "5.0.14",
+	"version": "5.0.15",
 	"description": "isomorphic-fetch & @types/isomorphic-fetch",
 	"keywords": [
 		"ctx-core",
@@ -28,7 +28,7 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^10.0.15",
+		"@ctx-core/dom": "workspace:^10.0.16",
 		"isomorphic-fetch": "^3.0.0",
 		"node-fetch": "^2.6.1",
 		"whatwg-fetch": "^3.6.2"
