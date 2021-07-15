@@ -1,5 +1,13 @@
 # @ctx-core/isomorphic-fetch
 
+## 6.0.2
+
+### Patch Changes
+
+- fix: "type": "module"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.2
+
 ## 6.0.1
 
 ### Patch Changes
