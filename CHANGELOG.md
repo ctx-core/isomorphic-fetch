@@ -1,5 +1,13 @@
 # @ctx-core/isomorphic-fetch
 
+## 6.0.7
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.9
+
 ## 6.0.6
 
 ### Patch Changes
