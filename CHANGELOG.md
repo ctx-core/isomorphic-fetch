@@ -1,5 +1,11 @@
 # @ctx-core/isomorphic-fetch
 
+## 6.0.12
+
+### Patch Changes
+
+- - "exports": using main|module|types|browser
+
 ## 6.0.11
 
 ### Patch Changes
