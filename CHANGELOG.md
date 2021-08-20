@@ -1,5 +1,11 @@
 # @ctx-core/isomorphic-fetch
 
+## 6.0.33
+
+### Patch Changes
+
+- @types/node: ^16.6.2 -> ^16.7.0
+
 ## 6.0.32
 
 ### Patch Changes
