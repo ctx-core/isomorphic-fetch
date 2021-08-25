@@ -30,7 +30,7 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.17",
+		"@ctx-core/dom": "workspace:^11.0.18",
 		"esm": "^3.2.25",
 		"node-fetch": "next"
 	},
