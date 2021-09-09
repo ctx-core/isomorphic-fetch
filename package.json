@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/isomorphic-fetch",
-	"version": "6.0.48",
+	"version": "6.0.49",
 	"description": "isomorphic-fetch & @types/isomorphic-fetch",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 		"node-fetch": "next"
 	},
 	"devDependencies": {
-		"@types/node": "^16.9.0",
+		"@types/node": "^16.9.1",
 		"@types/node-fetch": "^3.0.3",
 		"typescript": "^4.4.2"
 	},
