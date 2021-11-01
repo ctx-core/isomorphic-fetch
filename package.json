@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/isomorphic-fetch",
-	"version": "6.0.58",
+	"version": "6.0.59",
 	"description": "isomorphic-fetch & @types/isomorphic-fetch",
 	"keywords": [
 		"ctx-core",
@@ -30,14 +30,14 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.27",
+		"@ctx-core/dom": "workspace:^11.0.28",
 		"esm": "^3.2.25",
 		"node-fetch": "next"
 	},
 	"devDependencies": {
-		"@types/node": "^16.10.3",
+		"@types/node": "^16.11.6",
 		"@types/node-fetch": "^3.0.3",
-		"typescript": "^4.4.3"
+		"typescript": "^4.4.4"
 	},
 	"publishConfig": {
 		"access": "public",

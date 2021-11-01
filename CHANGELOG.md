@@ -1,5 +1,14 @@
 # @ctx-core/isomorphic-fetch
 
+## 6.0.59
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- @types/node: ^16.10.3 -> ^16.11.6
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.28
+
 ## 6.0.58
 
 ### Patch Changes
