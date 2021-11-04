@@ -1,5 +1,11 @@
 # @ctx-core/isomorphic-fetch
 
+## 6.0.60
+
+### Patch Changes
+
+- update dependencies
+
 ## 6.0.59
 
 ### Patch Changes
