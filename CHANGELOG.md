@@ -1,5 +1,13 @@
 # @ctx-core/isomorphic-fetch
 
+## 6.0.61
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+  - @ctx-core/dom@11.0.30
+
 ## 6.0.60
 
 ### Patch Changes

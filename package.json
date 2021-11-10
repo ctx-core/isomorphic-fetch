@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/isomorphic-fetch",
-	"version": "6.0.60",
+	"version": "6.0.61",
 	"description": "isomorphic-fetch & @types/isomorphic-fetch",
 	"keywords": [
 		"ctx-core",
@@ -17,25 +17,25 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"main": "./dist/index.cjs",
+	"main": "./dist/index.js",
 	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"types": "./src/index.ts",
 	"browser": "./dist/browser.js",
 	"scripts": {
-		"build": "npm run clean && npm run copy-mjs && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
-		"compile": "./node_modules/.bin/tsc -b .",
-		"copy-mjs": "cd dist && echo \"module.exports = (async () => import('./index.js'))()\" > index.cjs",
+		"build": "npm run compile",
+		"clean": "rm -rf dist",
+		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
 		"exec": "$@",
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.29",
-		"esm": "^3.2.25",
+		"@ctx-core/dom": "workspace:^11.0.30",
 		"node-fetch": "next"
 	},
 	"devDependencies": {
-		"@types/node": "^16.11.6",
+		"@swc/cli": "^0.1.51",
+		"@swc/core": "^1.2.107",
+		"@types/node": "^16.11.7",
 		"typescript": "^4.4.4"
 	},
 	"publishConfig": {
