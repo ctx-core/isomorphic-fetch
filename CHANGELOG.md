@@ -1,5 +1,25 @@
 # @ctx-core/isomorphic-fetch
 
+## 6.0.65
+
+### Patch Changes
+
+- @types/node: ^16.11.9 -> ^16.11.10
+- @swc/cli: ^0.1.51 -> ^0.1.52
+- @swc/core: ^1.2.111 -> ^1.2.113
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@11.0.34
+
+## 6.0.64
+
+### Patch Changes
+
+- @types/node: ^16.11.8 -> ^16.11.9
+- @swc/core: ^1.2.110 -> ^1.2.111
+- Updated dependencies
+  - @ctx-core/dom@11.0.33
+
 ## 6.0.63
 
 ### Patch Changes
